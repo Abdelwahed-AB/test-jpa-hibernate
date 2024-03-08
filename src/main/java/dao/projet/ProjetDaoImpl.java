@@ -61,11 +61,9 @@ public class ProjetDaoImpl implements IProjetDao{
         entityManager.getTransaction().begin();
 
         try{
-            Query query = entityManager.createQuery(
-                    "UPDATE Projet p SET p.taches = null where p.id = :idProjet"
-            );
-            query.setParameter("idProjet", idProjet);
-            query.executeUpdate();
+            Projet projet = entityManager.find(Projet.class, idProjet);
+            projet.getTaches().clear();
+            entityManager.merge(projet);
             entityManager.getTransaction().commit();
         }catch (Exception e){
             entityManager.getTransaction().rollback();

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ce0aca-a4d3-4989-b218-2a1c54be4884" name="Changes" comment="Add dao">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="62ce0aca-a4d3-4989-b218-2a1c54be4884" name="Changes" comment="Update entity relationships and add main">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/projet/ProjetDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/projet/ProjetDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Projet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Tache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Utilisateur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709886426765</updated>
-      <workItem from="1709886427785" duration="3923000" />
+      <workItem from="1709886427785" duration="8413000" />
     </task>
     <task id="LOCAL-00001" summary="Add jpa config and some util classes">
       <option name="closed" value="true" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709889136686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update entity relationships and add main">
+      <option name="closed" value="true" />
+      <created>1709890494546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890494546</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="Add jpa config and some util classes" />
     <MESSAGE value="Add entities" />
     <MESSAGE value="Add dao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dao" />
+    <MESSAGE value="Update entity relationships and add main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update entity relationships and add main" />
   </component>
 </project>

@@ -13,7 +13,7 @@ public class Tache {
     private Long id;
     private String Titre;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Projet projet;
 
     @Override

@@ -16,7 +16,7 @@ public class Projet {
     private String titre;
     private String description;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Tache> taches;
 
     @ManyToMany(cascade = CascadeType.PERSIST)

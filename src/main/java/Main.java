@@ -34,5 +34,9 @@ public class Main {
         System.out.println(projetDao.rechercher());
         System.out.println(utilisateurDao.rechercher());
         System.out.println(tacheDao.rechercher());
+
+        projetDao.resetTaches(projet.getId());
+        System.out.println(projetDao.rechercher());
+        System.out.println(tacheDao.rechercher());
     }
 }
