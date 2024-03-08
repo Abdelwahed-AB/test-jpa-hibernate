@@ -1,9 +1,11 @@
 package entities;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @Entity
 public class Tache {
     @Id
@@ -11,6 +13,14 @@ public class Tache {
     private Long id;
     private String Titre;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Projet projet;
+
+    @Override
+    public String toString() {
+        return "Tache{" +
+                "id=" + id +
+                ", Titre='" + Titre + '\'' +
+                '}';
+    }
 }

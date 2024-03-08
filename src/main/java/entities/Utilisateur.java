@@ -2,10 +2,13 @@ package entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.List;
 
-@Data
+@Getter
+@Setter
 @Entity
 public class Utilisateur {
     @Id
@@ -14,6 +17,15 @@ public class Utilisateur {
     private String nom;
     private String email;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "utilisateurs", fetch = FetchType.LAZY)
     private List<Projet> projets;
+
+    @Override
+    public String toString() {
+        return "Utilisateur{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

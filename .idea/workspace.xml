@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ce0aca-a4d3-4989-b218-2a1c54be4884" name="Changes" comment="Add jpa config and some util classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/projet/IProjetDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/projet/ProjetDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/tache/ITacheDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/tache/TacheDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/utilisateur/IUtilisateurDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/utilisateur/UtilisateurDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Projet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Tache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Utilisateur.java" afterDir="false" />
+    <list default="true" id="62ce0aca-a4d3-4989-b218-2a1c54be4884" name="Changes" comment="Add dao">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Projet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Tache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Tache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,6 +67,20 @@
       <recent name="C:\Users\Abd-AB\Desktop\Norsys\Hibernate &amp; JPA\test-jpa-hibernate\src\main\resources\META-INF" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="test-jpa-hibernate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709886426765</updated>
-      <workItem from="1709886427785" duration="2669000" />
+      <workItem from="1709886427785" duration="3923000" />
     </task>
     <task id="LOCAL-00001" summary="Add jpa config and some util classes">
       <option name="closed" value="true" />
@@ -84,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709886829268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add entities">
+      <option name="closed" value="true" />
+      <created>1709889129921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709889129921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add dao">
+      <option name="closed" value="true" />
+      <created>1709889136686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709889136686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add jpa config and some util classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jpa config and some util classes" />
+    <MESSAGE value="Add entities" />
+    <MESSAGE value="Add dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dao" />
   </component>
 </project>
